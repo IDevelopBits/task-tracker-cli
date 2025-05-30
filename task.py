@@ -9,14 +9,14 @@ class TaskStatus(Enum):
 class Task:
     _id_counter = 1 
     
-    def __init__(self, description="", status=TaskStatus.TODO):
+    def __init__(self, description=""):
         self.id = Task._id_counter
         Task._id_counter += 1
         
         self.description = description
         self.created_at = datetime.now()
         self.updated_at = None
-        self.status = status
+        self.status = TaskStatus.TODO
         
     def set_description(self, description):
         self.updated_at = datetime.now()
