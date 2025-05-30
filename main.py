@@ -50,7 +50,7 @@ def run_cli():
         action, data = parse_command(cmd)
     
         if action == "add":
-            taskT = task.Task(description=data)
+            taskT = task.Task(data)
             
             all_tasks.append(taskT)
             todo_tasks.append(taskT)
