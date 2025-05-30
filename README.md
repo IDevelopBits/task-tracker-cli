@@ -1,12 +1,3 @@
-Absolutely! Below is your **fully updated `README.md` file**, with:
-
-* ✅ Correct `get_details()` output in the Example Output section
-* ✅ `command_parser.py` removed from the project structure
-* ✅ Everything in one copy-paste block, ready for GitHub
-
----
-
-````markdown
 # 📝 Task Tracker CLI
 
 A simple, user-friendly command-line task manager written in Python. Manage your to-dos directly from the terminal — add tasks, update them, track progress, and view them in a clean, readable format.
